@@ -22,4 +22,4 @@ def display_forum():
     return "id: " + forum_id + "<br>" + "page: " + forum_page
 
 
-bottle.run()
+bottle.run(host="0.0.0.0", port=argv[1] )
