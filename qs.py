@@ -8,7 +8,7 @@ bottle.debug(True)
 
 @route('/')
 def index():
-    return template('V3a')
+    return template('index')
 
 
 @route('/static/<filename>')
